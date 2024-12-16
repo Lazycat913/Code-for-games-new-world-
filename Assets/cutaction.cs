@@ -14,6 +14,7 @@ public class cutaction : MonoBehaviour
     {
         
     }
+       // this makes it so to where the animatiion activates when the player gets into set zone//
          void OnTriggerEnter (Collider other){
           if (other.tag=="Player"){
            Debug.Log("something");
