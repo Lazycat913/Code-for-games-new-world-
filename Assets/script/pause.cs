@@ -12,7 +12,8 @@ public class pause : MonoBehaviour
       
     // Update is called once per frame
     void Update()
-    {
+    {     
+        // this pretty much stops the game , though it lacks a menu//
          if (Input.GetKeyDown("p"))
          {
            if (Time.timeScale == 1.0f){
